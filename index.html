@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css">
+    <title>Amongus overlay</title>
+
+  </head>
+  <body id="body">
+      <div id="helper" class="helper">
+          <img class="what" src="img/what.png"/>
+          <h1 id="code_top">Connecting...</a></h1>
+          <h3>[How to use?]</h3>
+          <h4>1. Add this webpage in OBS <a target="blank_" href="https://i.imgur.com/38yxmkT.png">(settings)</a></h4>
+          <h4>2. Download <a target="blank_" href="https://github.com/denverquane/amonguscapture/releases">AmongusCapture</a> form <a target="_blank" href="https://github.com/denverquane/amonguscapture/releases">here</a> (if you not have .NET Core installed, you can get that <a href="https://dotnet.microsoft.com/download/dotnet-core/thank-you/sdk-3.1.402-windows-x86-installer" target="_blank">here</a>)</h4>
+          <h4>3. Open <a target="blank_" href="https://github.com/denverquane/amonguscapture/releases">AmongusCapture</a> enter URL: <div id="ip" class="highlight">Connecting...</div> and enter Connect Code: <div id="code_help" class="highlight">Connecting...</div> and click Connect!</h4>
+          <h4>4. Open Amongus game and enjoy your stream!</h4>
+          <hr>
+          Want to customize like add kill feed, player status? <br> <a href="https://github.com/ST4RCHASER/amongus_overlay_template" target="_blank">You can download sourcecode and customize here!</a>
+      </div>
+      <div id="disconnect" class="disconnect_box">
+        Reconnecting to server... <br>
+        If not working please reload this page!
+      </div>
+      <div class="censor_box hide" id="censor_box"></div>
+    <script src="script/socket.io.js"></script>
+    <script src="script/index.js"></script>
+  </body>
+</html>
