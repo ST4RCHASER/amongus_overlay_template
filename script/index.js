@@ -1,4 +1,5 @@
-let host = window.location.hostname;
+let host = 'http://among-obs.starchaser.me/';
+//let host = window.location.hostname;
 let socket = io('http://'+host);
 let code_1 = document.getElementById('code_top');
 let code_2 = document.getElementById('code_help');
